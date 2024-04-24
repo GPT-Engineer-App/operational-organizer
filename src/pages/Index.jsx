@@ -8,7 +8,7 @@ const Index = () => {
     <Flex direction="column" align="center" justify="flex-start" minH="100vh" p={4} bg="gray.100">
       <Flex justify="space-between" w="full" p={4}>
         <Flex>
-          <Button leftIcon={<FaTools />} colorScheme="teal" variant="solid" size="lg" m={2}>
+          <Button leftIcon={<FaTools />} colorScheme="teal" variant="solid" size="lg" m={2} as={Link} href="/manage-tools">
             Manage Tools
           </Button>
           <Button leftIcon={<FaUserCircle />} colorScheme="blue" variant="outline" size="lg" m={2}>
