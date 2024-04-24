@@ -21,8 +21,8 @@ const Index = () => {
       </Flex>
       <VStack spacing={8} align="center">
         <Image borderRadius="full" boxSize="150px" src="https://images.unsplash.com/photo-1580983561371-7f4b242d8ec0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxzb2Z0d2FyZSUyMHRvb2xzfGVufDB8fHx8MTcxMzk3NTE0N3ww&ixlib=rb-4.0.3&q=80&w=1080" alt="Operational Software" />
-        <VStack spacing={8} align="center" bg="teal.500" p={10} borderRadius="lg" boxShadow="xl">
-          <Heading as="h1" size="4xl" color="white" textAlign="center">
+        <VStack spacing={8} align="center" bgGradient="linear(to-r, teal.300, blue.500)" p={10} borderRadius="lg" boxShadow="xl">
+          <Heading as="h1" size="4xl" bgClip="text" bgGradient="linear(to-r, red.500, yellow.500)" textAlign="center">
             Welcome to Software Hub
           </Heading>
           <Text fontSize="2xl" color="white" textAlign="center">
